@@ -1,6 +1,6 @@
-let nombrePlanetas = Array('Tierra', 'Marte', 'Jupiter');
-let distancia =[6,3,'67'];
-const tamaño = [10,20,30];
+let nombrePlanetas = Array('Mercurio', 'Venus', 'Tierra', 'Marte', 'Jupiter');
+let distancia =[0.39,0.72,1.00,1.52,5.20];
+const tamaño = [0.39,0.95,1.00,0.53,11.21];
 
 console.log(nombrePlanetas);
 console.log(distancia);
