@@ -1,0 +1,39 @@
+body{
+    display: grid;
+    height: 100vh;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+body h1{
+    color: rgb(0, 95, 204);
+}
+
+.container{
+    background-image: url("/Utilies/sistema-solar-e1564771413564.jpg");
+    height: 400px;
+    width: 800px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: 5rem 12rem 3rem;
+    gap: 5px;
+}
+.container h2{
+    color: #fff;
+}
+.container th{
+    color: #fff;
+}
+.container_btn{
+    display: flex;
+    margin: 5px;
+    gap: 50px;
+}
+.item{
+    height: 50px;
+    width: 120px;
+}
